@@ -34,7 +34,7 @@ x$Sub_metering_3<- as.numeric(x$Sub_metering_3)
 #check data looks ok
 #head(x)
 #Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
-windows()
+#windows()
 png(filename = 'plot1.png', width = 480, height = 480, units = 'px')
 
 
